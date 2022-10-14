@@ -25,6 +25,14 @@ class ViewController: UITableViewController {
             allWords = ["silkworm"]
         }
         
+        startGame()
+        
+    }
+    
+    func startGame() {
+        title = allWords.randomElement() // set the view controller's title to be a random word in the array
+        usedWords.removeAll(keepingCapacity: true) // removes all values from the usedWords array
+        tableView.reloadData() // forces UITableViewController to call numberOfRowInSection
     }
     
     override func numberOfSections(in tableView: UITableView) -> Int {
