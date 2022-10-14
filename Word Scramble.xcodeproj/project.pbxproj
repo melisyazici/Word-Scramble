@@ -13,6 +13,7 @@
 		157BBE1C28F8B7EC00FC9D27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 157BBE1A28F8B7EC00FC9D27 /* Main.storyboard */; };
 		157BBE1E28F8B7EE00FC9D27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 157BBE1D28F8B7EE00FC9D27 /* Assets.xcassets */; };
 		157BBE2128F8B7EE00FC9D27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 157BBE1F28F8B7EE00FC9D27 /* LaunchScreen.storyboard */; };
+		157BBE2928F99F1C00FC9D27 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 157BBE2828F99F1C00FC9D27 /* start.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		157BBE1D28F8B7EE00FC9D27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		157BBE2028F8B7EE00FC9D27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		157BBE2228F8B7EE00FC9D27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		157BBE2828F99F1C00FC9D27 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				157BBE1A28F8B7EC00FC9D27 /* Main.storyboard */,
 				157BBE1D28F8B7EE00FC9D27 /* Assets.xcassets */,
 				157BBE1F28F8B7EE00FC9D27 /* LaunchScreen.storyboard */,
+				157BBE2828F99F1C00FC9D27 /* start.txt */,
 				157BBE2228F8B7EE00FC9D27 /* Info.plist */,
 			);
 			path = "Word Scramble";
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				157BBE2128F8B7EE00FC9D27 /* LaunchScreen.storyboard in Resources */,
+				157BBE2928F99F1C00FC9D27 /* start.txt in Resources */,
 				157BBE1E28F8B7EE00FC9D27 /* Assets.xcassets in Resources */,
 				157BBE1C28F8B7EC00FC9D27 /* Main.storyboard in Resources */,
 			);
