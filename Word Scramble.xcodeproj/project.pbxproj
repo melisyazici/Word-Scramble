@@ -64,8 +64,8 @@
 				157BBE1A28F8B7EC00FC9D27 /* Main.storyboard */,
 				157BBE1D28F8B7EE00FC9D27 /* Assets.xcassets */,
 				157BBE1F28F8B7EE00FC9D27 /* LaunchScreen.storyboard */,
-				157BBE2828F99F1C00FC9D27 /* start.txt */,
 				157BBE2228F8B7EE00FC9D27 /* Info.plist */,
+				157BBE2828F99F1C00FC9D27 /* start.txt */,
 			);
 			path = "Word Scramble";
 			sourceTree = "<group>";
