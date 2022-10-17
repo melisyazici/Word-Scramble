@@ -37,7 +37,7 @@ class ViewController: UITableViewController {
         tableView.reloadData() // forces UITableViewController to call numberOfRowInSection
     }
     
-    override func numberOfSections(in tableView: UITableView) -> Int {
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return usedWords.count
     }
     
