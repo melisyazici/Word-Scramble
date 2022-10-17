@@ -80,15 +80,33 @@ class ViewController: UITableViewController {
     }
     
     func isPossible(word: String) -> Bool {
+        guard var tempWord = title?.lowercased() else { return false }
+        
+        // it will loop through every letter in the player's answer, seeing whether it exists in the start word. If it does exist, it will remove the letter from the start word, then continue the loop. If we try to use the letter twice, it will exist the first time, but then get removed so it doesn't exist the next time and check will fail
+        for letter in word {
+            if let position = tempWord.firstIndex(of: letter) {
+                tempWord.remove(at: position)
+            } else {
+                return false
+            }
+        }
         return true
     }
     
     func isOriginal(word: String) -> Bool {
-        return true
+        return !usedWords.contains(word) // If "usedWords" contains the "word" return false (the word is not original), otherwise return true
     }
     
     func isReal(word: String) -> Bool {
-        return true
+        let checker = UITextChecker()
+        let range = NSRange(location: 0, length: word.utf16.count)
+        let misspelledRange = checker.rangeOfMisspelledWord(in: word, range: range, startingAt: 0, wrap: false, language: "en")
+        
+        if misspelledRange.location == NSNotFound {
+            return true
+        } else {
+            return false
+        }
     }
 
 
